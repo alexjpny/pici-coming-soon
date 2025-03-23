@@ -52,8 +52,14 @@ a:hover {
 
 .logo-xl{
     margin: 0 auto 0 auto;
-    width: 100%;
+    width: 75%;
 }
+        @media only screen and (min-width: 600px) {
+                .logo-xl{
+                    margin: 0 auto 0 auto;
+                    width: 100%;
+                    }
+            }
 
 .meta{
     position: absolute;
