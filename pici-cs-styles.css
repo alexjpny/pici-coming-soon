@@ -1,0 +1,39 @@
+body {
+    background-color: #191616;
+    color: #645C5D;
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 300;
+    size: 1rem;
+    line-height: 1.6;
+}
+
+h1{
+font-family: mixta-didone, serif;
+font-size: 3rem;
+font-weight: 600;
+font-style: normal;
+color: #C4B6AD;
+}
+
+a{
+    color: #88AB7D;
+    transition: color 200ms ease-out;
+}
+
+a:hover {
+    color: #3E5637;
+    transition: ease-out 100ms;
+}
+
+.cs-lander{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cs-text{
+    text-align: center;
+}
