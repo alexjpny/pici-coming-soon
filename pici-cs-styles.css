@@ -1,6 +1,6 @@
 body {
     background-color: #191616;
-    color: #645C5D;
+    color: #AA9A8E;
     font-family: "neue-haas-unica", sans-serif;
     font-weight: 300;
     size: 1rem;
@@ -13,6 +13,8 @@ font-size: 3rem;
 font-weight: 600;
 font-style: normal;
 color: #C4B6AD;
+margin-top: 3rem;
+margin-bottom: 1rem;
 }
 
 a{
@@ -25,6 +27,8 @@ a:hover {
     transition: ease-out 100ms;
 }
 
+
+/* classes */
 .cs-lander{
     height: 100vh;
     width: 100%;
@@ -36,4 +40,23 @@ a:hover {
 
 .cs-text{
     text-align: center;
+}
+
+.logo-wrap{
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-xl{
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+.meta{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    color: #645C5D;
 }
